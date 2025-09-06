@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "minh_duong",
-         Animation = "script hacklord"
+         Animation = "script lỏ=)))"
          },
         Key = {
         KeySystem = false,
@@ -31,7 +31,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "animation hacklord"})
-     local Tab2o = MakeTab({Name = "animation hacklord"})
+     local Tab2o = MakeTab({Name = "skin hacklord"})
+     local Tab3o = MakeTab({Name = "fe noli"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -164,5 +165,11 @@ end
 player.CharacterAdded:Connect(function(char)
     setupCharacter(char)
 end)
+  end
+  })
+      AddButton(Tab3o, {
+     Name = "fe noli",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty0.lua"))()
   end
   })

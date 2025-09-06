@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "minh_duong",
-         Animation = "script lỏ=)))"
+         Animation = "script lỏ"
          },
         Key = {
         KeySystem = false,
@@ -31,8 +31,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "animation hacklord"})
-     local Tab2o = MakeTab({Name = "skin hacklord"})
-     local Tab3o = MakeTab({Name = "fe noli"})
+     local Tab2o = MakeTab({Name = "animation hacklord"})
+     local Tab3o = MakeTab({Name = "fe pursuer"})
+     local Tab4o = MakeTab({Name = "fe noli"})
+     local Tab5o = MakeTab({Name = "fe jason"})
+     local Tab6o = MakeTab({Name = "fe c00lkidd"})
+    local Tab7o = MakeTab({Name = "Krystal dance"}) 
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -167,9 +171,75 @@ player.CharacterAdded:Connect(function(char)
 end)
   end
   })
-      AddButton(Tab3o, {
+  AddButton(Tab3o, {
+     Name = "fe pursuer",
+    Callback = function()
+	  loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/4d91e07464b03d1aa35a3b4704cabe3b/raw/941b56c5c598fd5d62e3ca995d61e45814b5a782/PursuerJason.lua"))()
+  end
+  })
+  AddButton(Tab4o, {
      Name = "fe noli",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty0.lua"))()
+  end
+  })
+  AddButton(Tab5o, {
+     Name = "fe Jason",
+    Callback = function()
+	  loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/6203b323781cfb0a7ad35e4e9f60e026/raw/222815c2a4f6ffe38f8ae3965f6b3640c180ab4c/Jason.lua"))()
+  end
+  })
+  AddButton(Tab6o, {
+     Name = "fe c00lkidd",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty2.lua"))() 
+  end
+  })
+  AddButton(Tab7o, {
+     Name = "Krystal dance",
+    Callback = function()
+	  getgenv().options = { -- SCRIPT OPTIONS
+    RagdollGravity = 196.2 -- change to any number above 0 (196.2 is default grav)
+}
+_G.HideCharacter = true
+_G.FlingEnabled = true
+_G.TransparentRig = true
+_G.ToolFling = false -- false = holding, true = fling
+_G.AntiFling = false
+_G.CustomHats = false -- Enable or disable custom rig feature (basically old oxide when false)
+_G.CH = {
+    Torso = {
+        Name= "Black",
+        TextureId = "14251599953",
+        Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(0))
+    },
+
+    LeftArm = {
+        Name= "Accessory (LARM)",
+        TextureId = "17374768001", 
+        Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(90))
+    },
+
+    RightArm = {
+        Name= "Accessory (RARM)",
+        TextureId = "17374768001", 
+        Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(90))
+    },
+
+    LeftLeg = {
+        Name= "Accessory (LLeg)",
+        TextureId = "17387586304", 
+        Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(90))
+    },
+
+    RightLeg = {
+        Name= "Accessory (rightleg)",
+        TextureId = "17387586304", 
+        Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(90))
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nitro-GT/Oxide/refs/heads/main/genericloadstring"))()
+task.wait(.5) -- we give it time to load properly
+loadstring(game:HttpGet("https://raw.githubusercontent.com/somethingsimade/KDV3-Fixed/refs/heads/main/KrystalDance3"))()
   end
   })

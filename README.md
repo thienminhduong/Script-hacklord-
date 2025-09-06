@@ -1,4 +1,3 @@
-# Script-hacklord-
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
        local Window = MakeWindow({
@@ -32,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "animation hacklord"})
-     
+     local Tab2o = MakeTab({Name = "animation hacklord"})
 ------- BUTTON
     
     AddButton(Tab1o, {

@@ -28,58 +28,60 @@ local Window = Fluent:CreateWindow({
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true,
-    Theme = "Dark",
+    Theme = "Light",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-        Main0=Window:AddTab({ Title="Thông Tin" }),
-        Main1=Window:AddTab({ Title="Script Farm" }),
-        Main2=Window:AddTab({ Title="Farm Fruit" }),
-        Main3=Window:AddTab({ Title="Farm Chest" }),
-        Main4=Window:AddTab({ Title="Script Hop" }),
-       Main5=Window:AddTab({ Title="lin tinh" }),
+        
+        Main1=Window:AddTab({ Title="discord của tao" }),
+        Main2=Window:AddTab({ Title="tik tok" }),
+        Main3=Window:AddTab({ Title="fe noli" }),
+        Main4=Window:AddTab({ Title="fe c00lkidd" }),
+       Main5=Window:AddTab({ Title="fe pursuer" }),
+       Main6=Window:AddTab({ Title="fe jason" }),
 }
     Tabs.Main1:AddButton({
     Title = "Discord",
-    Description = "TBoyRoblox Community",
+    Description = "",
     Callback = function()
-        setclipboard("https://discord.gg/tboyroblox-community-1253927333920899153")
+        https://discord.gg/GeCCF7kX
     end
 })
 
     Tabs.Main2:AddButton({
-    Title = "Youtuber",
-    Description = "TBoy Roblox",
+    Title = "tiktok",
+    Description = "🤓🤓",
     Callback = function()
-        setclipboard("https://www.youtube.com/@TBoyRoblox08")
+        tiktok.com/@thienminhduong_
     end
 })
 
     Tabs.Main3:AddButton({
-    Title = "Youtuber",
-    Description = "TBoy Gamer",
+    Title = "fe noli",
+    Description = "",
     Callback = function()
-        setclipboard("https://www.youtube.com/@TBoyGamer08")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty0.lua"))()
     end
 })
     
     Tabs.Main4:AddButton({
-    Title="Redz Hub",
+    Title="fe c00lkidd",
     Description="",
-    Callback=function()
-	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty2.lua"))()
   end
 })
 
 Tabs.Main5:AddButton({
-    Title="GreenZ Hub",
+    Title="fe pursuer",
     Description="",
     Callback=function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/GreenZ-Hub/refs/heads/main/KaitunDoughKing.lua"))()
+	  loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/4d91e07464b03d1aa35a3b4704cabe3b/raw/941b56c5c598fd5d62e3ca995d61e45814b5a782/PursuerJason.lua"))()
+  end
+})
+Tabs.Main6:AddButton({
+    Title="fe jason",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/6203b323781cfb0a7ad35e4e9f60e026/raw/222815c2a4f6ffe38f8ae3965f6b3640c180ab4c/Jason.lua"))()
   end
 })

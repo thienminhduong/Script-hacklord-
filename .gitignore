@@ -39,7 +39,7 @@ local Tabs = {
         Main4=Window:AddTab({ Title="Script Hop" }),
        Main5=Window:AddTab({ Title="lin tinh" }),
 }
-    Tabs.Main0:AddButton({
+    Tabs.Main1:AddButton({
     Title = "Discord",
     Description = "TBoyRoblox Community",
     Callback = function()
@@ -47,7 +47,7 @@ local Tabs = {
     end
 })
 
-    Tabs.Main0:AddButton({
+    Tabs.Main2:AddButton({
     Title = "Youtuber",
     Description = "TBoy Roblox",
     Callback = function()
@@ -55,7 +55,7 @@ local Tabs = {
     end
 })
 
-    Tabs.Main0:AddButton({
+    Tabs.Main3:AddButton({
     Title = "Youtuber",
     Description = "TBoy Gamer",
     Callback = function()
@@ -63,7 +63,7 @@ local Tabs = {
     end
 })
     
-    Tabs.Main1:AddButton({
+    Tabs.Main4:AddButton({
     Title="Redz Hub",
     Description="",
     Callback=function()
@@ -76,7 +76,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
   end
 })
 
-Tabs.Main1:AddButton({
+Tabs.Main5:AddButton({
     Title="GreenZ Hub",
     Description="",
     Callback=function()

@@ -32,13 +32,12 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-        
+        Main0=Window:AddTab({ Title="Thông Tin" }),
         Main1=Window:AddTab({ Title="discord của tao" }),
         Main2=Window:AddTab({ Title="tik tok" }),
         Main3=Window:AddTab({ Title="fe noli" }),
         Main4=Window:AddTab({ Title="fe c00lkidd" }),
        Main5=Window:AddTab({ Title="fe pursuer" }),
-       Main6=Window:AddTab({ Title="fe jason" }),
 }
     Tabs.Main1:AddButton({
     Title = "Discord",

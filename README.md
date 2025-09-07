@@ -5,8 +5,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Title = "minh_duong",
          Animation = "script lỏ"
          },
-        Key = {
-        KeySystem = false,
+        Key = {minh_duong}
+        KeySystem = true,
         Title = "Key System",
         Description = "",
         KeyLink = "",

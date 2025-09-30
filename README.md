@@ -36,7 +36,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab4o = MakeTab({Name = "fe noli"})
      local Tab5o = MakeTab({Name = "fe jason"})
      local Tab6o = MakeTab({Name = "fe c00lkidd"})
-    local Tab7o = MakeTab({Name = "Krystal dance"}) 
+    local Tab7o = MakeTab({Name = "Krystal dance"})
+        local Tab8o = MakeTab({Name = "syntex backdoor 1.2.2"})
+         local Tab9o = MakeTab({Name = "syntex backdoor 1.2.0"})
+          local Tab10o = MakeTab({Name = "backdoor.exe v6x"})
+           local Tab11o = MakeTab({Name = "lalol hub backdoor"})  
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -243,3 +247,23 @@ task.wait(.5) -- we give it time to load properly
 loadstring(game:HttpGet("https://raw.githubusercontent.com/somethingsimade/KDV3-Fixed/refs/heads/main/KrystalDance3"))()
   end
   })
+  AddButton(Tab8o, {
+     Name = "syntex backdoor 1.2.2",
+    Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/etgaby33/syntex_backdoor/refs/heads/main/sb1.2.2.lua'))()  
+  end
+  AddButton(Tab9o, {
+     Name = "syntex backdoor 1.2.0",
+    Callback = function()
+	 loadstring(game:HttpGet('https://raw.githubusercontent.com/etgaby33/sb1.2.0/refs/heads/main/sb1.2.0lua.txt'))()
+  end
+  AddButton(Tab10o, {
+     Name = "backdoor.exe v6x",
+    Callback = function()
+	 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Backdoor-exe-9413"))() 
+  end
+  AddButton(Tab11o, {
+     Name = "lalol hub backdoor",
+    Callback = function()
+	 loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))()
+  end
